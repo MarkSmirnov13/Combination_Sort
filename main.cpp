@@ -5,12 +5,13 @@
 using namespace std;
 template <typename T> // declare new template T
 
-
 /**
+ * Function, that sorts the array in correct order
  *
- * @tparam T
- * @param array
+ * @param {vector<T>} &array to current array which must be sort
+ * @returns nothing
  */
+
 void Comb(vector<T> &array)
 {
     double fakt = 1.2473309; // factor of decreasing
